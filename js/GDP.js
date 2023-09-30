@@ -12,11 +12,13 @@ option = {
         bottom: '3%',
         containLabel: true
     },
-    toolbox: {
-        feature: {
-            saveAsImage: {}
-        }
-    },
+   toolbox: {
+     feature: {
+      dataView: { show: true, readOnly: false },
+      restore: { show: true },
+      saveAsImage: { show: true }
+             }
+           },
     xAxis: {
         type: 'category',
         boundaryGap: false,
