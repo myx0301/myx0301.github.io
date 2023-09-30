@@ -1,5 +1,12 @@
 var myChart=echarts.init(document.getElementById("railway"));
  option = {
+   toolbox: {
+     feature: {
+      dataView: { show: true, readOnly: false },
+      restore: { show: true },
+      saveAsImage: { show: true }
+             }
+           },
     tooltip: {
         trigger: 'axis',
         axisPointer: {
