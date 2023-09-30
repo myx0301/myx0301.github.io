@@ -1,6 +1,12 @@
 var myChart = echarts.init(document.getElementById('租房情况价格'));
 option = {
-
+   toolbox: {
+     feature: {
+      dataView: { show: true, readOnly: false },
+      restore: { show: true },
+      saveAsImage: { show: true }
+             }
+           },
     tooltip: {
         trigger: 'item'
     },
