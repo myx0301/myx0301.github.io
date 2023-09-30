@@ -15,6 +15,13 @@ option = {
             type: 'shadow' // 'shadow' as default; can also be 'line' or 'shadow'
         }
     },
+    toolbox: {
+     feature: {
+      dataView: { show: true, readOnly: false },
+      restore: { show: true },
+      saveAsImage: { show: true }
+             }
+           },
     legend: {},
     grid: {
         left: '3%',
