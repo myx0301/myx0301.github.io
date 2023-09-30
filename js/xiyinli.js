@@ -1,5 +1,12 @@
 var myChart=echarts.init(document.getElementById("xiyinli"));
 let option = {
+    toolbox: {
+     feature: {
+      dataView: { show: true, readOnly: false },
+      restore: { show: true },
+      saveAsImage: { show: true }
+             }
+           },
     tooltip: { show: false },
     grid: { left: 10, top: 10, bottom: 20, right: 10, containLabel: true },
     xAxis: {
