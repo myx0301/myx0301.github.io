@@ -15,11 +15,13 @@
     legend: {
     data: ['交通', '文化', '消费', '医疗', '教育', '住房'],
 },
-    toolbox: {
-    feature: {
-    saveAsImage: {}
-}
-},
+       toolbox: {
+     feature: {
+      dataView: { show: true, readOnly: false },
+      restore: { show: true },
+      saveAsImage: { show: true }
+             }
+           },
     grid: {
     left: '3%',
     right: '4%',
